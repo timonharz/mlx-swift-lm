@@ -3,7 +3,7 @@ import MLX
 import MLXLMCommon
 import Testing
 
-private typealias CacheFactory = @Sendable () -> any KVCache
+typealias CacheFactory = @Sendable () -> any KVCache
 
 @Test(
     .serialized,
